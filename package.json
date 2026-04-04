@@ -1,0 +1,44 @@
+{
+  "name": "@lorb/deploy-once",
+  "version": "0.1.2",
+  "description": "A URL that works exactly once, then self-destructs. Disposable previews and demos",
+  "type": "module",
+  "bin": {
+    "deploy-once": "dist/cli.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "deploy",
+    "ephemeral",
+    "one-time",
+    "self-destruct",
+    "temporary",
+    "cli"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "homepage": "https://lorb.studio",
+  "author": "Lorb.studio <dev@lorb.studio> (https://lorb.studio)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lorb-studio/make",
+    "directory": "deploy-once"
+  }
+}
