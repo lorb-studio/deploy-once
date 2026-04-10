@@ -9,6 +9,10 @@
   <a href="https://www.npmjs.com/package/@lorb/deploy-once"><code>npm install @lorb/deploy-once</code></a>
 </p>
 
+<p align="center">
+  <img src="./demo.gif" alt="deploy-once demo" width="600">
+</p>
+
 **One visit.** First person to open the link sees your site. Everyone after gets `410 Gone`. No cleanup, no lingering deployments.
 
 **Public URL.** A Cloudflare tunnel gives you a shareable `https://` URL — no account needed, no DNS setup.
