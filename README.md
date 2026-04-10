@@ -1,15 +1,13 @@
 <p align="center">
-  <a href="https://lorb.studio">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="../.github/logo-light.svg">
-      <img alt="Lorb.studio" src="../.github/logo-dark.svg" height="40">
-    </picture>
-  </a>
+  <img src=".github/icon.png" width="80" height="80" alt="deploy-once" />
 </p>
 
-# @lorb/deploy-once
+<h1 align="center">deploy-once</h1>
+<p align="center">A URL that works exactly once, then self-destructs.</p>
 
-A URL that works exactly once, then self-destructs.
+<p align="center">
+  <a href="https://www.npmjs.com/package/@lorb/deploy-once"><code>npm install @lorb/deploy-once</code></a>
+</p>
 
 **One visit.** First person to open the link sees your site. Everyone after gets `410 Gone`. No cleanup, no lingering deployments.
 
